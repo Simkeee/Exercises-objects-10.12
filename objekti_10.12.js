@@ -53,6 +53,8 @@ function Person(word) {
 let person = new Person("dodo");
 
 console.log('3.ZAD:', person);
+// Ovo ce ti prikazati rezultat u formatu: "3.ZAD: {d: Array(2), o: Array(2)}". Da li bi znao da ispises ceo objekat, da ti prikaze svaki clan niza?
+
 
 // 4.	And who cursed the most in the fight between you and your spouse? Given an object with three rounds, with nested objects as your scores per round, return a string of who cursed the most: If you, return "ME!" If your spouse, return "SPOUSE!" If a draw, return "DRAW!"
 // Examples:
@@ -163,3 +165,5 @@ function getBestStudent() {
 return bestStudent;
 }
 console.log('8.ZAD:'+getBestStudent());
+
+//Svaka cast :)
